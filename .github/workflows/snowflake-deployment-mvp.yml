@@ -15,6 +15,7 @@ on:
 jobs:
   deploy-snowflake-changes-job:
     runs-on: ubuntu-latest
+    environment: SF_ACCOUNT # Update as required 
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
